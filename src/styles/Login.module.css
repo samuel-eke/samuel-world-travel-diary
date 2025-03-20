@@ -1,0 +1,46 @@
+.login {
+  margin: 2.5rem;
+  padding: 2.5rem 5rem;
+  background-color: var(--color-dark--1);
+  min-height: calc(100vh - 5rem);
+}
+
+.form {
+  background-color: var(--color-dark--2);
+  border-radius: 7px;
+  padding: 2rem 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 48rem;
+  margin: 8rem auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.btn button {
+  width: 12rem;
+  padding: 10px 6px;
+  text-align: center;
+  font-weight: bolder;
+  border-radius: 12px;
+  background-color: var(--color-brand--2);
+  outline: none;
+  border: none;
+  font-size: 1.8rem;
+  color: var(--color-light--2);
+}
+
+.btn button:hover {
+  cursor: pointer;
+  background-color: rgb(14, 173, 14);
+  box-shadow: 3px 2px 4px black;
+}
+.btn button:active {
+  transform: translateY(4px);
+}

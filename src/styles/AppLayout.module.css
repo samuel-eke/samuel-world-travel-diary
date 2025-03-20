@@ -1,0 +1,6 @@
+.app {
+  height: 100vh;
+  padding: 2.4rem;
+  display: flex;
+  position: relative;
+}
