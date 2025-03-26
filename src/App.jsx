@@ -8,6 +8,7 @@ import Login from "./pages/Login";
 import AppLayout from "./pages/AppLayout";
 import Citylist from "./components/Citylist";
 const JSON_SERVER = "http://localhost:8000";
+import CountryList from "./components/CountryList";
 
 function App() {
   const [cities, setCities] = useState([]);
@@ -72,7 +73,12 @@ function App() {
             />
             <Route
               path="countries"
-              element={<p>countries</p>}
+              element={
+                <CountryList
+                  cities={cities}
+                  isLoading={isLoading}
+                />
+              }
             />
             <Route
               path="form"
