@@ -35,6 +35,66 @@
         "lng": 13.376933665713324
       },
       "id": 98443197
+    },
+    {
+      "cityName": "Cape Town",
+      "country": "South Africa",
+      "emoji": "🇿🇦",
+      "date": "2027-11-20T10:00:00.000Z",
+      "notes": "Beautiful landscapes!",
+      "position": {
+        "lat": -33.924868,
+        "lng": 18.424055
+      },
+      "id": 12345678
+    },
+    {
+      "cityName": "Nairobi",
+      "country": "Kenya",
+      "emoji": "🇰🇪",
+      "date": "2027-05-10T14:30:00.000Z",
+      "notes": "Great wildlife experience.",
+      "position": {
+        "lat": -1.286389,
+        "lng": 36.817223
+      },
+      "id": 23456789
+    },
+    {
+      "cityName": "Tokyo",
+      "country": "Japan",
+      "emoji": "🇯🇵",
+      "date": "2027-03-15T09:00:00.000Z",
+      "notes": "Loved the cherry blossoms!",
+      "position": {
+        "lat": 35.689487,
+        "lng": 139.691711
+      },
+      "id": 34567890
+    },
+    {
+      "cityName": "Bangkok",
+      "country": "Thailand",
+      "emoji": "🇹🇭",
+      "date": "2027-08-25T16:45:00.000Z",
+      "notes": "Amazing street food.",
+      "position": {
+        "lat": 13.756331,
+        "lng": 100.501762
+      },
+      "id": 45678901
+    },
+    {
+      "cityName": "Sydney",
+      "country": "Australia",
+      "emoji": "🇦🇺",
+      "date": "2027-12-01T12:00:00.000Z",
+      "notes": "Iconic Opera House.",
+      "position": {
+        "lat": -33.86882,
+        "lng": 151.209296
+      },
+      "id": 56789012
     }
   ]
 }

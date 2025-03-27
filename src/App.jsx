@@ -9,6 +9,8 @@ import AppLayout from "./pages/AppLayout";
 import Citylist from "./components/Citylist";
 const JSON_SERVER = "http://localhost:8000";
 import CountryList from "./components/CountryList";
+import City from "./components/City";
+import Form from "./components/Form";
 
 function App() {
   const [cities, setCities] = useState([]);
@@ -72,6 +74,10 @@ function App() {
               }
             />
             <Route
+              path="cities/:id"
+              element={<City cities={cities} />}
+            />
+            <Route
               path="countries"
               element={
                 <CountryList
@@ -82,7 +88,7 @@ function App() {
             />
             <Route
               path="form"
-              element={<p>map form</p>}
+              element={<Form />}
             />
           </Route>
           <Route

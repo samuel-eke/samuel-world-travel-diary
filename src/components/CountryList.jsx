@@ -22,6 +22,7 @@ function CountryList({ isLoading, cities }) {
           key={country.id}
         />
       ))}
+      {/* <CountryItem country={{ country: "Kenya", emoji: "KN" }} /> */}
     </ul>
   );
 }
