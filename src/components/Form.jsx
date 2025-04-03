@@ -13,7 +13,7 @@ export function convertToEmoji(countryCode) {
   return String.fromCodePoint(...codePoints);
 }
 
-function Form() {
+export default function Form() {
   const [cityName, setCityName] = useState("");
   const [country, setCountry] = useState("");
   const [date, setDate] = useState(new Date());
@@ -50,7 +50,7 @@ function Form() {
       </div>
 
       <div className={styles.buttons}>
-        <Button type="primary">Add</Button>
+        <Button type="secon">Add</Button>
         <Button
           type="back"
           onClick={(e) => {
@@ -63,5 +63,3 @@ function Form() {
     </form>
   );
 }
-
-export default Form;

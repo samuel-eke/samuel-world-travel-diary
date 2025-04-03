@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Homepage from "./pages/Homepage";
 import Pricing from "./pages/Pricing";
 import PageNotFound from "./pages/PageNotFound";
@@ -58,9 +58,9 @@ function App() {
             <Route
               index
               element={
-                <Citylist
-                  cities={cities}
-                  isLoading={isLoading}
+                <Navigate
+                  replace
+                  to="cities"
                 />
               }
             />
